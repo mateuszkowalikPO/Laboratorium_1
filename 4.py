@@ -1,6 +1,8 @@
 wiek = int(input("Podaj wiek: "))
+
 if wiek < 18:
     zgoda_opiekuna = input("Czy masz zgode opiekuna?(tak/nie): ")
+
 dokument_tozsamosci = input("Czy masz dokument tozsamosci?(tak/nie): ")
 
 wypozyczenie_mozliwe = "Wypozyczenie mozliwe"
