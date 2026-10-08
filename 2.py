@@ -1,4 +1,5 @@
 punkty = int(input("Podaj liczbę punktów: "))
+
 if punkty >= 0 and punkty <= 49:
     ocena = "2.0"
 elif punkty >= 50 and punkty <= 59:
