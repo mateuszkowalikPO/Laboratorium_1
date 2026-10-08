@@ -1,5 +1,6 @@
 liczba_studentow = int(input("Podaj liczbe studentow: "))
 zaliczeni = 0
+
 for i in range(liczba_studentow):
     nazwisko = input(f"Nazwisko studenta {i + 1}: ")
     punkty = int(input(f"Punkty: "))
@@ -18,4 +19,5 @@ for i in range(liczba_studentow):
     print(f"{nazwisko} - {punkty} pkt - {ocena}")
     if ocena > 3.0:
         zaliczeni += 1
+
 print(f"Liczba studentow, ktorzy zaliczyli: {zaliczeni}")
