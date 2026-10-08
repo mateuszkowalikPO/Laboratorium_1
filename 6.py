@@ -13,7 +13,7 @@ elif czy_okno_otwarte == "nie" and czy_ktos_w_pomieszczeniu == "nie" and tempera
     powod = "16 C"
 else:
     ogrzewanie = "WYLACZONE"
-    powod = "brak"
+    powod = "BRAK"
 
 print(f"Ogrzewanie: {ogrzewanie}")
 print(f"Tempertur poniezej: {powod}")
