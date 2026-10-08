@@ -1,5 +1,6 @@
 pierwsza_liczba = int(input("Podaj pierwsza liczbe: "))
 druga_liczba = int(input("Podaj druga liczbe: "))
+
 if pierwsza_liczba > druga_liczba:
     print("Pierwsza liczba musi byc mniejsza od drugiej")
     exit()
