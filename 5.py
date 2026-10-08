@@ -1,4 +1,5 @@
 czas_parkowania = int(input("Podaj czas parkowania(h): "))
+
 if czas_parkowania <= 1:
     kwota = 1
 elif czas_parkowania > 1 and czas_parkowania <= 3:
